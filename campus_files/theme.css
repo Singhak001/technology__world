@@ -1,0 +1,22 @@
+﻿body {
+    
+}
+.gblink-bold {
+ color:brown;
+ font-weight:bold;
+}
+.gblink {
+    color: brown;
+}
+.gb-dark {
+    background-color:#78335D;
+}
+.gb-primary {
+    background-color: #78335d;
+}
+.gblink-white {
+    background-color: #fff;
+}
+.gb-primary-light {
+    background-color: #c27aa6;
+}

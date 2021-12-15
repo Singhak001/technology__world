@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://www.gbu.ac.in/page/campuslife -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Established by the Uttar Pradesh Gautam Buddha University Act 2002 UP Act No. 9 of 2002. Approved by UGC under Section 12-B &amp; NAAC accredited">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">-->
+    <link rel="icon" type="image/gif/png" href="https://www.gbu.ac.in/Content/img/logo_gbu.png">
+    <link href="./campus_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./campus_files/theme.css" rel="stylesheet">
+    <title>Gautam Buddha University</title>
+    <style>
+        .jumbotron {
+            /*background-image: url("../img/jumbotron_bg.jpg");*/
+            background-color: gainsboro;
+            background-size: cover;
+        }
+
+
+        .zone-btn {
+            position: fixed;
+            top: 40%;
+            left: -5px;
+            width: 150px;
+            background-color: #78335d;
+            padding: 15px 27px;
+            color: #fff !important;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: px 10px 10px px;
+            font-style: italic;
+            box-shadow: -2px 5px 12px 0px #afafaf;
+            z-index: 100;
+            text-decoration: none;
+            transition: all 0.7s;
+        }
+
+            .zone-btn:hover {
+                border-radius: 0px 27px 27px 0px;
+                box-shadow: -1px 0px 7px 1px;
+                width: 220px;
+                text-decoration: none;
+                background-color: #fff;
+                color: blue !important;
+            }
+    </style>
+    <script type="text/javascript">
+        function executeQuery() {
+            var input = document.getElementById('form-search-input');
+            console.log(input)
+            var element = google.search.cse.element.getElement('searchresults-only0');
+            if (input.value == '') {
+                element.clearAllResults();
+            } else {
+                element.execute(input.value);
+            }
+            return false;
+        }
+    </script>
+
+    <script type="text/javascript">
+
+        $(window).on('load', function () {
+            $('#myModal').modal('show');
+        });
+    </script>
+</head>
+
+
+<body class="d-flex flex-column min-vh-100">
+
+	
+	
+	
+    <div class="header shadow sticky-top">
+        <nav class="navbar navbar-dark py-0 navbar-expand py-md-0 gb-dark" id="first-nav">
+            <div class="navbar-collapse collapse" id="">
+                <ul class="navbar-nav mx-auto">
+                    
+                    <li class="nav-item py-0 px-1"><a href="https://www.gbu.ac.in/page/tender" class="nav-link nav-1 text-white">Tenders</a></li>
+                    <li class="nav-item py-0 px-1"><a href="https://www.gbu.ac.in/page/recruitment" class="nav-link nav-1 text-white">Recruitments</a></li>
+                    <li class="nav-item py-0 px-1"><a href="https://www.gbu.ac.in/page/directory" class="nav-link nav-1 text-white">Directory</a></li>
+                    <li class="nav-item">
+
+
+                        <a class="fb-ic px-4 py-2" href="http://mail.gbu.ac.in/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="yellow" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <!--
+    <li class="nav-item py-0 px-1"><a href="http://mail.gbu.ac.in/" class="nav-link nav-1">Webmail</a></li>
+    <li class="nav-item py-0 px-1"><a href="/examinations" class="nav-link nav-1">Examinations</a></li>
+    <li class="nav-item py-0 px-1"><a href="/academics/timetables" target="_blank" class="nav-link nav-1">Timetable</a></li>
+    <li class="nav-item py-0 px-1"><a href="http://library.gbu.ac.in" class="nav-link nav-1">Library</a></li>
+    <li class="nav-item py-0 px-1"><a href="/page/payment" class="nav-link nav-1">Online Fee</a></li>
+        -->
+                </ul>
+            </div>
+
+            <form class="form-inline my-1 my-lg-0 d-none d-lg-block" onsubmit="return executeQuery();">
+                <div class="row">
+                    <div class="col-9"><input class="form-control form-control-sm" type="search" placeholder="Search" aria-label="Search" id="form-search-input"></div>
+                    <div class="col-3">
+                        <button class="btn btn-sm btn-default text-white  py-0 me-2 me-sm-0" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </nav>
+        <nav class="navbar navbar-light bg-light pt-2 pb-1 navbar-expand-lg">
+            <!--  <a class="navbar-brand" href="/">
+                <img src="~/Content/img/fulllogogbu.png" style="height: 70px;" class="logo" />
+            </a>-->
+            <div class="container">
+                <a class="navbar-brand" href="https://www.gbu.ac.in/">
+                    <img src="./campus_files/fulllogogbu.png" style="height: 60px;" class="logo">
+                    </a>
+                    <nav class="navbar navbar-expand-lg shadow-lg round navbar-light bg-light">
+                        <div class="container-fluid">
+
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarScroll">
+                                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                                    <!--style="--bs-scroll-height: 100px;"-->
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="https://www.gbu.ac.in/home">Home</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="https://www.gbu.ac.in/page/campuslife#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            About
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                            <li>  <a class="dropdown-item" href="https://www.gbu.ac.in/about/home">Home</a></li>
+                                            <li> <a class="dropdown-item" href="https://www.gbu.ac.in/about/vision">Vision &amp; Mission</a>                    </li>
+                                            <li> <a class="dropdown-item" href="https://www.gbu.ac.in/about/vc">VC's message</a></li>
+                                            <li>  <a class="dropdown-item" href="https://www.gbu.ac.in/about/bodies">Governing Bodies</a></li>
+                                            <li>  <a class="dropdown-item" href="https://www.gbu.ac.in/about/regulatorybodies">Regulatory Bodies</a></li>
+                                            <li> <a class="dropdown-item" href="https://www.gbu.ac.in/about/organisation">Organization</a></li>
+                                            <li> <a class="dropdown-item" href="https://www.gbu.ac.in/about/committee">Statutory Committee</a></li>
+                                            <!-- <li> <a class="dropdown-item" href="/about/annualreport">Annual Report</a></li>-->
+                                            <li>  <a class="dropdown-item" href="https://www.gbu.ac.in/about/nirf">NIRF Report</a></li>
+                                            <li>  <a class="dropdown-item" href="https://www.gbu.ac.in/page/policy">Procedure and Policies</a></li>
+                                            <li> <a class="dropdown-item" href="https://www.gbu.ac.in/about/act">GBU Act, Statute and Ordinance</a></li>
+                                            <li> <a class="dropdown-item" href="https://www.gbu.ac.in/page/naac">NAAC</a></li>
+                                            <li> <a class="dropdown-item" href="https://www.gbu.ac.in/about/rti">Right to Information</a></li>
+                                            <li><a class="dropdown-item" href="https://www.gbu.ac.in/about/MandatoryDisclosures">Mandatory Disclosures</a></li>
+                                            <li><a class="dropdown-item" href="https://www.gbu.ac.in/about/Guidelines">Guidelines/GO</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a href="https://www.gbu.ac.in/page/campuslife#" class="nav-link dropdown-toggle" id="navbarScrollingDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Academics
+
+                                        </a>
+                                        <div class="dropdown-menu  dropdown-menu-lg-end" aria-labelledby="servicesDropdown">
+                                            <a class="dropdown-item" href="https://www.gbu.ac.in/page/academicCalender">Academic Calender 2021</a>
+                                            <a class="dropdown-item" href="https://www.gbu.ac.in/Content/gbudata/General/holiday-2021.jpg">List of Holidays 2021</a>
+                                            <div class="dropdown-divider"></div>
+                                            <div class="d-md-flex align-items-start justify-content-start">
+
+                                                <div>
+                                                    <a class="dropdown-item" href="https://www.gbu.ac.in/fac">Faculty</a>
+                                                    <a class="dropdown-item" href="https://www.gbu.ac.in/academics/academic-programmes">Academic Programmes as per CBCS</a>
+                                                    
+                                                    <a class="dropdown-item" href="https://www.gbu.ac.in/academics/international-student-affairs">International Student Affairs</a>
+                                                    
+                                                    <a class="dropdown-item" href="https://www.gbu.ac.in/academics/anti-ragging">Anti Ragging</a>
+                                                    <a class="dropdown-item" href="https://www.gbu.ac.in/ipr">IPR Cell</a>
+                                                    <a class="dropdown-item" href="https://www.gbu.ac.in/academics/national-academic-depository">National Academic Depository</a>
+                                                    
+
+                                                </div>
+
+                                                <div>
+                                                    <div class="dropdown-header">University Schools</div>
+                                                    <a class="dropdown-item" href="https://www.gbu.ac.in/school/sob">Biotechnology</a>
+                                                    <a class="dropdown-item" href="https://www.gbu.ac.in/school/sobs">Buddhist Studies &amp; Civilization</a>
+                                                    <a class="dropdown-item" href="https://www.gbu.ac.in/school/soe">Engineering</a>
+                                                    <a class="dropdown-item" href="https://www.gbu.ac.in/school/soh">Humanities &amp; Social Sciences</a>
+                                                    <a class="dropdown-item" href="https://www.gbu.ac.in/SOICT/index.html">Information &amp; Communication Technology</a>
+                                                    <a class="dropdown-item" href="https://www.gbu.ac.in/school/soljg">Law, Justice and Governance</a>
+                                                    <a class="dropdown-item" href="https://www.gbu.ac.in/school/som">Management</a>
+                                                    <a class="dropdown-item" href="https://www.gbu.ac.in/school/sovs">Vocational Studies &amp; Applied Sciences</a>
+
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                        <u class="dropdown-menu">
+                                    </u></li><li><u class="dropdown-menu">
+                                    </u></li><u class="dropdown-menu">
+
+                                    </u>
+                                    
+                                    <li class="nav-item"><a class="nav-link" href="https://www.gbu.ac.in/admissions" target="_blank">Admissions</a></li>
+                                    <!--
+
+                                    <li><a class="nav-link " href="/admissions" target="_blank">Research</a></li>
+                                        -->
+                                    <li class="nav-item dropdown">
+                                        <a href="https://www.gbu.ac.in/page/campuslife#" class="nav-link dropdown-toggle" id="navbarScrollingDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Life@GBU
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="https://www.gbu.ac.in/page/campuslife" target="_blank">Campus Life</a></li>
+                                            <li><a class="dropdown-item" href="https://www.gbu.ac.in/club" target="_blank">Clubs</a></li>
+                                            <li><a class="dropdown-item" href="https://www.gbu.ac.in/StudyCircle" target="_blank">Study Circles</a></li>
+                                            <li>  <a class="dropdown-item" href="https://www.gbu.ac.in/about/forums">Forums and Associations</a></li>
+                                            <li><a class="dropdown-item" href="https://www.gbu.ac.in/page/cultural-council" target="_blank">Cultural Council</a></li>
+                                            <li><a class="dropdown-item" href="https://www.gbu.ac.in/page/sport-council" target="_blank">Sports</a></li>
+                                            <li><a class="dropdown-item" href="https://www.gbu.ac.in/page/meditation-center" target="_blank">Meditation Center</a></li>
+                                            <li><a class="dropdown-item" href="https://www.gbu.ac.in/page/hostel" target="_blank">Hostels</a></li>
+                                            <!-- <li><a class="dropdown-item" href="/page/photogallery" target="_blank">GBU in Pictures</a></li>-->
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+
+                            <!--<button type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                 </button>-->
+                        </div>
+                    </nav>
+
+
+            </div>
+        </nav>
+    </div>
+
+
+    <main class="container-fluid">
+        
+
+
+
+    
+    
+    <div class="city-head p-5" style="background: url(/Content/clubs/img/Artboard-1meditationatnight.jpg);background-repeat: no-repeat;background-size: 100% 100%;background-attachment: fixed;">
+      <div class="" style="padding: 0px 0px;">
+        <div class="row my-5" style="padding: 0px 0px;">
+          <div class="col-md-9 campus-life-head">
+          </div>
+          <div class="col-md-3 campus-banner-x me-auto p-4 container text-center">
+            <div class="position text-left">
+              <h2 class=" pt-1 pl-2 city-life-t ">Campus life</h2>
+             <hr style="width: 40%; left: 10 ; position: absolute; border: 2px solid red">
+              <br>
+              <br>
+              <p style="color: rgb(91, 97, 102); font-size: 16px;">We are ready to see you thrive. <br>Be a part of a vibrant community of intellectuals and entrepreneurs endowed with Character, Creativity, Competence and Commitment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+
+    <!--Section 2 start -->
+    <div class="container mt-5">
+      <div class="row" style="">
+        <div class="col-md-6" style="background: rgb(0, 140, 149);border: 1px solid rgb(0, 140, 149);">
+          <span class="border container-fluid m-3 mx-auto" style="color: rgb(255, 255, 255) !important;">
+          <div class="p-5 mt-4 text-center" style=" border: 1px solid rgb(0, 140, 149); ">
+            
+            <p style="color: rgb(255, 255, 255) !important;
+              font-size: 24px !important;
+              font-family: &#39;proxima_nova_rgregular&#39;, sans-serif;
+              font-weight: 300;
+              ">
+            Your GBU experience is ready for you.<br>What will you make it?</p>
+            
+          </div></span>
+        </div>
+        <div class="col-md-6 " style="border: 1px solid rgb(0, 140, 149);">
+          <div class="p-5 mt-4">
+          <p style="text-align: center;
+              margin: 0 0 25px;
+            font-family: &#39;proxima_nova_rgregular&#39;, sans-serif;
+            font-weight: 300;
+            line-height: 24px;
+            font-size: 18px;
+            line-height: 24px;
+          color: #545b61;">You bring your voice, your talents, and your willingness to explore. Whether you choose to volunteer, go Greek, play sports, start a new club, or all of the above, your life at GBU will be one to remember.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--    Section 2 end -->
+    <!--    section organisation start -->
+    <div class="container">
+      <h2 class="organisation">Life At Campus</h2>
+      <div class="hrline">
+      </div>
+    </div>
+    <div class="container">
+      <div class="row text-center campus-life-tab">
+        <div class="col-md-4 mb-4">
+          <a href="https://www.gbu.ac.in/sport-council" title="">
+        <div class="p-2" style=" background: url(/Content/clubs/img/sportsimg.JPG); height: 200px; background-size: cover;">
+            <div class="subtitle ">
+              Sports Facilities
+
+            </div>              
+          </div>
+          </a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <a href="https://www.gbu.ac.in/meditation-center">
+          <div class="p-2" style=" background: url(/Content/clubs/img/buddha25.jpg); height: 200px; background-size: cover;">
+            <div class="subtitle ">Meditation Center
+            </div>
+          </div></a>
+
+        </div>
+        <div class="col-md-4 mb-4">
+          <a href="https://www.gbu.ac.in/hostel" title="">
+          <div class="p-2" style=" background: url(/Content/clubs/img/hostel.jpg); height: 200px; background-size: cover;">
+            <div class="subtitle ">Student Accommodation</div>
+          </div>
+        </a>
+        </div>
+      </div>
+      <br>
+      <div class="row text-center mb-4 campus-life-tab">
+        <div class="col-md-4 mb-4">
+          <a href="https://www.gbu.ac.in/clubs">
+        <div class="p-2" style=" background: url(/Content/clubs/img/clubs.jpg); height: 200px; background-size: cover;">
+            <div class="subtitle ">
+              Clubs
+            </div>              
+            
+          </div></a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <a href="https://www.gbu.ac.in/cultural-council">
+          <div class="p-2" style=" background: url(/Content/clubs/img/buddha25.jpg); height: 200px; background-size: cover;">
+            <div class="subtitle ">Cultural Activities
+            </div>
+          </div></a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="p-2" style=" background: url(/Content/clubs/img/shoppingcomplex.jpg); height: 200px; background-size: cover;">
+            <div class="subtitle ">Shopping Complex</div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center campus-life-tab">
+        <div class="col-md-4 mb-4">
+          <a href="https://www.gbu.ac.in/club/social-service">
+        <div class="p-2" style=" background: url(/Content/clubs/img/social.jpg); height: 200px; background-size: cover;">
+            <div class="subtitle ">
+              Social Service
+
+            </div>              
+          </div>
+          </a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <!-- <a href=""> -->
+          <div class="p-2" style=" background: url(/Content/clubs/img/auditorium.jpg); height: 200px; background-size: cover;">
+            <div class="subtitle ">Auditorium
+            </div>
+          </div><!-- </a> -->
+
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="p-2" style=" background: url(/Content/clubs/img/dispensary.jpg); height: 200px; background-size: cover;">
+            <div class="subtitle ">Dispensary</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--    section organisation end -->
+    <!--    section1 start -->
+    <div class="section-1 p-4 mt-5">
+      <div class="container">
+        <div class="row revese-md">
+          <div class="col-md-6 mb-4" style="min-height: 250px; background-image: url(/Content/clubs/img/canteen.jpeg) !important;
+            background-size: cover !important;
+            background-position: 50% 50% !important;
+            background-attachment: scroll !important;
+            background-repeat: no-repeat !important;">
+            
+          </div>
+          <div class="col-md-6 mb-4">
+            <h2 style="font-size: 22px !important;">Dining services</h2>
+            <div class=" mb-3 mt-2 float-left" style="height: 2px; width: 20%; background-color:rgb(228, 0, 43);"></div><br><br>
+            <p>Feast on fresh, nutritious food, or grab a quick snack. If you want to eat it, you can find it here. In addition to our buffet-style dining hall, try out our delis, Starbucks station, Tex-Mex takeout, on-campus Dominos, and any number of local food trucks that make regular stops on campus. You will eat well here!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--    section1 end -->
+    <!-- section 2 start -->
+    <div class="section-1 p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <h2 style="font-size: 22px !important;">Evening out @ Grand walk</h2>
+            <div class=" mb-3 mt-2 float-left" style="height: 2px; width: 20%; background-color:rgb(228, 0, 43);"></div><br><br>
+            <p>The cardiovascular benefits of walking are biologically plausible; like other forms of regular moderate exercise, walking improves cardiac risk factors such as cholesterol, blood pressure, diabetes, obesity, vascular stiffness and inflammation, and mental stress.<br> And if cardiac protection and a lower death rate are not enough to get you moving, consider that walking and other moderate exercise programs also help protect against dementia, peripheral artery disease, obesity, diabetes, depression, colon cancer, and even erectile dysfunction.</p>
+          </div>
+          <div class="col-md-6" style="min-height: 250px; background-image: url(/Content/clubs/img/eveningout1.jpg) !important;
+            background-size: cover !important;
+            background-position: 50% 50% !important;
+            background-attachment: scroll !important;
+            background-repeat: no-repeat !important;
+            background-size: cover;">
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- section1 start -->
+  <div class="section-1 p-4">
+    <div class="container">
+      <div class="row revese-md" style="padding: 20px 0px;">
+        <div class="col-md-6 " style=" min-height: 250px; background-image: url(/Content/clubs/img/meditationcenternight2.jpg);background-repeat: no-repeat;background-size: cover;">
+          
+        </div>
+        <div class="col-md-6">
+          <h2 style="font-size: 22px !important;">Meditation Center @ GBU</h2>
+          <div class=" mb-3 mt-2 float-left" style="height: 2px; width: 20%; background-color:rgb(228, 0, 43);"></div><br><br>
+          <p>In addition to curricular inputs the university is creating facilities to guide and shape Mahatma Jyotiba Phule Dhyana Kendra, inspired by stupa architecture is a learning and retreat centre to give an experience of the power of peace and inner silence. <br>The centre is looking forward to organize seminars, lectures and experiential workshops in meditation, positive values, stress free living and self management.<br>It aims to help the residents at campus in recognizing their own inherent qualities and recollect their inner most potential. The meditation centre facilitates the experience of the inner self through silence.
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--    section1 end -->
+  <!-- section 2 start -->
+  <div class="section-1 p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 style="font-size: 22px !important;">Meet at Shanti Sarowar</h2>
+          <div class=" mb-3 mt-2 float-left" style="height: 2px; width: 20%; background-color:rgb(228, 0, 43);"></div><br><br>
+          <p>An oasis of peace in the happening in GBU, Shanti Sarovar is a perfect place to relax, refresh and recharge the soul. As an academy for higher learning of values and spiritual skills, it conducts a wide spectrum of courses, retreats, seminars and workshops.
+            
+          </p>
+        </div>
+        <div class="col-md-6" style="    min-height: 250px; background-image: url(/Content/clubs/img/4.jpg) !important;
+          background-size: cover !important;
+          background-position: 50% 50% !important;
+          background-attachment: scroll !important;
+          background-repeat: no-repeat !important;
+          background-size: cover;">
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  <!-- love section start -->
+    </main>
+    <div class="gcse-searchresults-only"></div>
+    <footer class="mt-auto">
+        <!-- page-footer font-small "
+            style="        background-image: url(../../Content/img/green_road_img.jpg) !important;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-size: cover;"
+                -->
+        <style>
+            footer a {
+                text-decoration-style: none;
+                text-decoration: none !important;
+            }
+
+                footer a:hover {
+                    color: #FB8C00 !important;
+                }
+        </style>
+        <div class="gb-dark mt-5  shadow py-2">
+            <div class="container text-center text-md-left">
+                <!-- Grid row-->
+                <div class="row py-2 d-flex align-items-center">
+                    <!-- Grid column
+                    <div class="col-md-6 col-lg-5 text-center  text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0 text-white">Get connected with us on social networks!</h6>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-12 col-lg-12 text-center text-md-right">
+                        <!-- Facebook -->
+                        <a class="fb-ic px-4" href="http://mail.gbu.ac.in/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"></path>
+                            </svg>
+                        </a>
+                        <a class="fb-ic px-4" href="https://www.facebook.com/gbugrnoida.dic/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+                            </svg>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic px-4" href="https://twitter.com/gbugrnoida">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+                            </svg>
+                        </a>
+
+                        <a class="tw-ic px-4" href="https://www.gbu.ac.in/page/youtv">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.122C.002 7.343.01 6.6.064 5.78l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path>
+                            </svg>
+                        </a>
+
+
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row  style="background-color:#343a40eb"-->
+            </div>
+        </div>
+        <!--
+        <div class="footer" style="background-color:#306294eb">
+
+                    <div class="text-center">
+                        <div>
+                            <div class="container-fluid  py-5">
+                                <div class="container text-center">
+                                    <img style="height: 100px;  background-color: #ffffff; border-radius: 100%"
+                                         src="~/Content/img/logo_gbu.png" alt="">
+                                </div>
+                                <hr/>
+                                <div class="f-contact text-center container text-white">
+                                    <h5 class="font-weight-normal">
+                                        गौतम बुद्ध
+                                        विश्वविद्यालय <br>
+                                        Gautam Buddha University <br>
+                                    </h5>
+                                    <h6 class="address">
+                                        Greater Noida
+                                        Gautam Budh Nagar <br>
+                                        Uttar Pradesh (India) - 201310
+                                    </h6>
+                                    <a href="tel:01202344200"><i class="fa fa-phone mr-3"></i>Phone No.: 0120-2344200</a>
+                                    <p>&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+        </div>
+            -->
+    </footer>
+    <div class="text-center bg-dark text-white py-2">
+        © 2021 - Gautam Buddha University. Maintained by DIC &amp; <a href="https://www.gbu.ac.in/page/ccc" style="color: white"> CCC.</a> <a href="https://www.gbu.ac.in/page/sitemap" style="color: white">Sitemap</a>
+    </div>
+    <script src="./campus_files/bootstrap.bundle.min.js.download"></script>
+
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+       <script async src="https://cse.google.com/cse.js?cx=014142162027795520387:rpatngdrvw9"></script>
+    -->
+    <script>
+        $('#search').keyup(function () {
+            $('.card').removeClass('d-none');
+            var filter = $(this).val(); // get the value of the input, which we filter on
+            $('.card-deck').find('.card .card-body h4:not(:contains("' + filter + '"))').parent().parent().addClass('d-none');
+        })
+    </script>
+
+
+
+</body></html>
